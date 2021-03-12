@@ -1,12 +1,7 @@
-
-public class Snakeladder 
+public class Snakeladder
 {
-	
-	public static final int intposition = 0;
-	public static void main(String[] args)
-	{
-	
-	System.out.println("Player at startposition: " + intposition);
-	}
-
+	public static void main(String[] args) {
+	int rolldice = 1 + (int)( (Math.random() *10) % 6);
+	System.out.println("Player rolled dice: " +rolldice);
+}
 }
